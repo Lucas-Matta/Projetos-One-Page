@@ -1,2 +1,4 @@
-# Projetos-One-Page
- Projetos one page que foram realizados utilizando HTML5/CSS3/JavaScript/JQuery/PHP
+# **_Projetos One Page_**
+ **Projetos one page que foram realizados durante os treinamentos, utilizando as técnologias HTML5/CSS3/JavaScript/JQuery/PHP**
+ ***
+
