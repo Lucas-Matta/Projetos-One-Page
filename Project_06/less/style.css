@@ -1,0 +1,445 @@
+/****** RESET E CLASSES AUXILIARES ******/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  width: 100%;
+  max-width: 1280px;
+  padding: 0 2%;
+  margin: 0 auto;
+}
+html,
+body {
+  background-color: rgba(224, 224, 224, 0.5);
+}
+.clear {
+  clear: both;
+}
+/****** HEADER ******/
+header {
+  background-image: url(../images/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 450px;
+  padding: 30px 0;
+}
+header .logo h2 {
+  float: left;
+  width: 232px;
+  height: 50px;
+  color: white;
+  position: relative;
+  z-index: 2;
+}
+header nav.mobile {
+  display: none;
+  float: right;
+}
+header nav.mobile ul {
+  width: 100%;
+  padding: 28px 0;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  display: block;
+  background-color: #31475e;
+  text-align: center;
+  z-index: 1;
+  display: none;
+}
+header nav.mobile h3 {
+  z-index: 2;
+  color: white;
+  position: relative;
+  cursor: pointer;
+  font-size: 30px;
+}
+header nav.mobile a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+header nav.mobile a:hover {
+  text-decoration: underline;
+}
+header nav.mobile li {
+  padding: 10px 0;
+}
+header nav.mobile li.btn-nav {
+  border: 1px solid white;
+  padding: 4px 10px;
+  border-radius: 8px;
+  display: inline-block;
+}
+header nav.desktop {
+  float: right;
+}
+header nav.desktop ul {
+  list-style-type: none;
+}
+header nav.desktop li {
+  display: inline-block;
+  margin: 0 15px;
+}
+header nav.desktop a {
+  color: white;
+  text-decoration: none;
+}
+header nav.desktop a:hover {
+  text-decoration: underline;
+}
+header nav.desktop li.btn-nav {
+  border: 1px solid white;
+  padding: 3px 8px;
+  border-radius: 8px;
+}
+header div.chamada-header {
+  padding: 110px 0;
+}
+header div.chamada-header h2 {
+  font-size: 47px;
+  font-weight: normal;
+  color: white;
+}
+header div.chamada-header p {
+  font-size: 17px;
+  color: white;
+  margin-top: 10px;
+  max-width: 600px;
+}
+header div.chamada-header form {
+  margin-top: 10px;
+}
+header div.chamada-header form input[type=email] {
+  display: inline-block;
+  border-radius: 20px;
+  background-color: white;
+  width: 237px;
+  height: 35px;
+  border: 0;
+  padding-left: 10px;
+  outline: 0;
+}
+header div.chamada-header form input[type=submit] {
+  width: 181px;
+  height: 43px;
+  border-radius: 100px;
+  background-color: #ff5f27;
+  color: white;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+}
+/****** SECTION DESCRICAO ******/
+section.descricao {
+  text-align: center;
+  padding: 30px 0;
+}
+section.descricao p {
+  font-weight: lighter;
+  font-size: 22px;
+  font-style: italic;
+  display: inline-block;
+  max-width: 600px;
+}
+/****** SECTION DESCRICAO 02 ******/
+section.descricao2 {
+  padding: 50px 0;
+}
+section.descricao2 .container {
+  max-width: 960px;
+}
+section.descricao2 .texto-descricao {
+  float: left;
+  width: 55%;
+  padding: 0 15px;
+}
+section.descricao2 img {
+  float: left;
+  max-width: 500px;
+  width: 45%;
+}
+section.descricao2 h3 {
+  color: #31475e;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: normal;
+}
+section.descricao2 p {
+  color: #6a7c92;
+  font-size: 15px;
+  line-height: 25px;
+  margin-top: 15px;
+}
+/****** SECTION DESCRICAO 03 ******/
+section.descricao3 {
+  padding: 30px 0 60px 0;
+}
+section.descricao3 .container {
+  max-width: 960px;
+  background-image: url(../images/bg2.jpg);
+  background-size: cover;
+  min-height: 350px;
+  position: relative;
+}
+section.descricao3 .box-depoimento {
+  width: 70%;
+  max-width: 506px;
+  padding: 10px 30px;
+  background-color: white;
+  position: absolute;
+  left: 50%;
+  bottom: -30px;
+  box-shadow: 0 8px 20px 0 rgba(224, 224, 224, 0.5);
+}
+section.descricao3 p {
+  font-size: 18px;
+  color: #31475e;
+  font-weight: lighter;
+  font-style: italic;
+}
+/****** SECTION SERVIÇOS ******/
+section.servicos {
+  padding: 20px 0;
+}
+section.servicos .container {
+  max-width: 1100px;
+}
+section.servicos .title-servicos h3 {
+  color: #31475e;
+  font-size: 22px;
+  font-weight: normal;
+  text-align: center;
+}
+section.servicos .flex-servicos {
+  display: flex;
+  flex-wrap: wrap;
+}
+section.servicos .box-servico {
+  border: 10px solid #e6e6e6;
+  border-radius: 3px;
+  box-shadow: 0 8px 20px 0 rgba(224, 224, 224, 0.5);
+  background-color: white;
+  width: 33.3%;
+}
+section.servicos .box-servico img {
+  width: 100%;
+}
+section.servicos .box-servico-wraper {
+  padding: 30px;
+}
+section.servicos .box-servico-wraper h2 {
+  color: #31475e;
+  font-size: 20px;
+  font-weight: normal;
+}
+section.servicos .box-servico-wraper p {
+  font-weight: lighter;
+  color: #6a7c92;
+  font-size: 15px;
+  margin: 8px 0;
+  line-height: 1.6;
+}
+section.servicos .box-servico-wraper a {
+  display: inline-block;
+  border: 1px solid #6a7c92;
+  color: #6a7c92;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 10px;
+}
+/****** SECTION PORTFÓLIO******/
+section.portfolio {
+  padding: 20px 0;
+}
+section.portfolio .container {
+  max-width: 960px;
+  background-color: #f7f7f7;
+  padding: 15px 0;
+}
+section.portfolio h2 {
+  text-align: center;
+  font-weight: normal;
+  color: #31475e;
+}
+section.portfolio .empresas {
+  padding: 0 10px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+section.portfolio .empresas .empresa-single {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-color: #ececec;
+  border-width: 1px 0 1px 1px;
+  width: 25%;
+  padding: 10px 0;
+}
+section.portfolio .empresas .empresa-single:last-child {
+  border: 1px solid #ececec;
+}
+/****** SECTION FORMULARIO******/
+section.formulario {
+  padding: 30px 0;
+}
+section.formulario .container {
+  max-width: 960px;
+}
+section.formulario h2 {
+  text-align: center;
+  font-weight: normal;
+  color: #31475e;
+}
+section.formulario form {
+  margin-top: 10px;
+}
+section.formulario form input[type=text] {
+  width: 100%;
+  height: 40px;
+  border-radius: 100px;
+  border: 1px solid #ebebeb;
+  margin-top: 8px;
+  padding-left: 10px;
+  outline: 0;
+}
+section.formulario form input[type=submit] {
+  width: 179px;
+  height: 58px;
+  border-radius: 100px;
+  background-color: #ff5f27;
+  box-shadow: 0 8px 20px 0 rgba(224, 224, 224, 0.5);
+  outline: 0;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
+  margin-top: 10px;
+}
+section.formulario form textarea {
+  width: 100%;
+  height: 120px;
+  resize: none;
+  border-radius: 100px;
+  border: 1px solid #ebebeb;
+  margin-top: 8px;
+  padding: 10px;
+  padding-top: 15px;
+  padding-left: 27px;
+  outline: 0;
+}
+/****** FOOTER ******/
+footer {
+  padding: 50px 0;
+}
+footer .box-footer {
+  width: 33.3%;
+  float: left;
+  padding: 0 15px;
+}
+footer h2 {
+  color: #31475e;
+  font-size: 22px;
+  font-weight: normal;
+}
+footer p {
+  margin-top: 10px;
+  color: #31475e;
+  font-weight: 300;
+  font-size: 15px;
+}
+footer form {
+  margin-top: 10px;
+}
+footer form input[type=text] {
+  width: 80%;
+  max-width: 208px;
+  height: 43px;
+  border-radius: 100px;
+  background-color: #ffffff;
+  border: 1px solid #bfbfbf;
+  padding-left: 10px;
+  border: 0;
+}
+footer form button {
+  width: calc(20% - 10px);
+  margin-left: 10px;
+  max-width: 63px;
+  height: 43px;
+  border: 1px solid #31475e;
+  border-radius: 50px;
+  background-color: white;
+  cursor: pointer;
+  outline: 0;
+}
+footer form button i {
+  color: #31475e;
+}
+@media screen and (max-width: 1024px) {
+  nav.desktop {
+    display: none;
+  }
+  nav.mobile {
+    display: block !important;
+  }
+  .chamada-header {
+    text-align: center;
+  }
+  .chamada-header p {
+    display: inline-block;
+  }
+  form input[type=email] {
+    margin-bottom: 15px;
+  }
+  form input[type=submit] {
+    display: block;
+    margin: 0 auto;
+  }
+  .box-depoimento {
+    width: 80%;
+    max-width: 506px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    transform: translate(-50%, -50%);
+  }
+}
+@media screen and (max-width: 768px) {
+  .texto-descricao {
+    width: 100%;
+    float: none;
+    text-align: left;
+    min-width: 100%;
+  }
+  section.descricao2 img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
+    float: none;
+    margin-top: 10px;
+  }
+  .box-servico {
+    width: 100% !important;
+    max-width: 420px;
+    margin: 0 auto;
+  }
+  .empresa-single {
+    width: 100% !important;
+    max-width: 640px;
+    margin: 15px auto;
+    border: 1px solid #ececec;
+  }
+  .box-footer {
+    width: 100% !important;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
